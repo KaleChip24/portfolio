@@ -1,21 +1,69 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
 
-/* body{
-  font-family: 'Bungee Outline', cursive;
-} */
+.landing {
+  display: flex;
+  flex-direction: column;
+  height: 1000px;
+}
 
 .landing-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 15px auto;
-  height: 800px;
-  border: 2px solid green;
+  /* margin: 15px auto; */
+  height: 600px;
+  /* border: 2px solid green; */
 }
 
-.landing {
-  font-family: 'Bungee Outline', cursive;
+#my-img{
+  margin-top: 300px;
 }
+
+.intro {
+  margin-top: 300px;
+  margin-left: 132px;
+  margin-right: -107px;
+  font-family: 'Bungee Outline', cursive;
+  font-size: 70px;
+  color: white;
+  text-shadow: 0px -2px #5AFFBA, 0px 2px #c88df3, 2px 0 black;
+}
+.name {
+  margin-top: 300px;
+  margin-right: 95px;
+  font-family: 'Bungee Outline', cursive;
+  font-size: 70px;
+  color: white;
+  text-shadow: 0px -2px #5AFFBA, 0px 2px #c88df3;
+}
+
+.info-bite{
+  align-self: center;
+  padding: 15px;
+  margin-top: 140px;
+  margin-right: 44px;
+  width: 520px;
+  border: 2px solid #5affba;
+  box-shadow: 4px 4px #c88df3, 7px 7px black;
+}
+/* 
+@keyframes flicker {
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+    text-shadow:
+      0 0 4px #5AFFBA,
+      0 0 11px #EDFF1F,
+      0 0 19px #3965FF,
+      0 0 10px #fff,
+      0 0 80px #0fa,
+      0 0 90px #0fa,
+      0 0 100px #0fa,
+      0 0 150px #0fa;
+  }
+  20%, 24%, 55% {       
+    text-shadow: none;
+  }
+} */
 
 /* #my-img{
   border: 2px solid black;

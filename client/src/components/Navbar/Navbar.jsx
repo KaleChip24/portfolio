@@ -1,14 +1,15 @@
 import "./Navbar.css"
-import { Link } from "react-router-dom"
+import { Link as LinkR } from "react-router-dom"
+import { Link as LinkS } from 'react-scroll'
 
 function Header() {
   return (
     <nav>
       <div className="nav-container">
         <div className="nav-links">
-          <Link className="about-link" to="/about">About</Link>
-          <Link className="projects-link" to="/projects">Projects</Link>
-          <Link className="contact-link" to="/contact">Contact</Link>
+          <LinkR className="about-link" to="/about">About</LinkR>
+          <LinkR className="projects-link" to="/projects">Projects</LinkR>
+          <LinkR className="contact-link" to="/contact">Contact</LinkR>
         </div>
       </div>
     </nav>

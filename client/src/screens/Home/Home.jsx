@@ -1,5 +1,5 @@
 import React from 'react';
-// import logo from './image/prof_Img.png'
+import './Home.css'
 
 function Home() {
   return (
@@ -9,16 +9,20 @@ function Home() {
         <img
           id="my-img"
           style={{
-            boxShadow: "9px -5px 3px #5AFFBA, -4px 9px 3px #EDFF1F, -14px 8px 5px #3965FF, 12px -10px 8px #FF5ABD",
+            boxShadow: "10px 10px #c88df3, -10px -10px black",
             border: "4px solid #5AFFBA",
-            borderRadius: "900px",
+            borderRadius: "100px",
             width: 400,
+            marginTop: 300,
+            marginLeft: 217,
 
           }}
-          src={'./image/prof_Img.png'}
+          src={'https://res.cloudinary.com/dv2buktns/image/upload/v1642538998/prof_Img_tehudl.jpg'}
           alt="kale-headshot-illustration" />
         <h1 className='name'> I'm Kale </h1>
       </div>
+      <h3 className='info-bite'> Web Developer | Software Engineer | 90s Enthusiast</h3>
+      <div className='arrow'></div>
     </div>
   );
 }

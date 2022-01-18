@@ -2,34 +2,42 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  position: fixed;
   height: 100px;
+  background-color: white;
+  /* border: 2px solid teal; */
+  width: 100vw;
 }
 
 .nav-links{
   display: flex;
   padding: 10px;
-  margin: 10px;
-  border: 2px solid teal
+  margin-top: 10px;
+  margin-right: 60px;
+  /* border: 2px solid teal */
 }
 
 .about-link{
-  border: 2px solid black;
+  /* border: 2px solid black; */
   color: black;
   margin: 10px;
+  font-size: 25px;
   text-shadow: 4px 4px 3px #5AFFBA;
 }
 
 .contact-link{
-  border: 2px solid black;
+  /* border: 2px solid black; */
   color: black;
   margin: 10px;
+  font-size: 25px;
   text-shadow: 4px 4px 3px #FF5ABD;
 }
 
 .projects-link{
-  border: 2px solid black;
+  /* border: 2px solid black; */
   color: black;
   margin: 10px;
+  font-size: 25px;
   text-shadow: 4px 4px 3px #3965FF;
 }
 
