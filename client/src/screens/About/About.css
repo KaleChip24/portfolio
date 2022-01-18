@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap');
+
+
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  height: 600px;
+}
+
+.blerb {
+  width: 500px;
+  /* border: 2px solid black; */
+}
+
+.icons-container{
+  display: flex;
+  padding: 10px;
+  border: 2px solid #5affba;
+  box-shadow: 4px 4px #c88df3, 7px 7px black;
+}
+
+.icons{
+  margin: 15px auto;
+  padding: 10px;
+}
+
+.abt{
+  font-family: 'Bungee Outline', cursive;
+  color: white;
+  font-size: 50px;
+  text-shadow: rgb(90 255 186) 5px -2px 2px, 
+  rgb(237 255 31) -1px 0px 1px, 
+  rgb(57 101 255) -3px -3px 1px, 
+  rgb(255 90 189) -5px 2px 2px,
+  black 2px 3px 1px;
+}
+
+

@@ -1,0 +1,41 @@
+.nav-container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  height: 100px;
+}
+
+.nav-links{
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid teal
+}
+
+.about-link{
+  border: 2px solid black;
+  color: black;
+  margin: 10px;
+  text-shadow: 4px 4px 3px #5AFFBA;
+}
+
+.contact-link{
+  border: 2px solid black;
+  color: black;
+  margin: 10px;
+  text-shadow: 4px 4px 3px #FF5ABD;
+}
+
+.projects-link{
+  border: 2px solid black;
+  color: black;
+  margin: 10px;
+  text-shadow: 4px 4px 3px #3965FF;
+}
+
+
+
+a {
+  text-decoration: none;
+  /* color: aquamarine; */
+}
