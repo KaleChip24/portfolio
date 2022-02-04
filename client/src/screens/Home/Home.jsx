@@ -5,7 +5,7 @@ function Home() {
   return (
     <div className='landing'>
       <div className='landing-container'>
-        <h1 className='intro'> Hi! </h1>
+        <h1 className='intro'> Hey! </h1>
         <img
           id="my-img"
           style={{

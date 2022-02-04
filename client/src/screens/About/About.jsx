@@ -15,7 +15,7 @@ function About() {
           My decade of experience in people-facing roles has prepared me to handle any situation
           with a cool head and open heart. I’m seeking a role at a community-oriented
           company, where I can use my skills to create a more inclusive online experience.</p>
-        <h2>Skills | Tools</h2>
+        <h2 className="skills-title">Skills | Tools</h2>
         <div className="icons-container">
           <IconContext.Provider value={{ className: "icons", size: "2em" }}>
             <div className="icon">

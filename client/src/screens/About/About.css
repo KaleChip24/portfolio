@@ -7,13 +7,16 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* border: 2px solid black; */
   height: 600px;
+  margin-bottom: 20px;
 }
 
 .blerb {
   width: 500px;
-  /* border: 2px solid black; */
+}
+
+.skills-title{
+  margin: 30px;
 }
 
 .icons-container{

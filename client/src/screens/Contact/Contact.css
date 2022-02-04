@@ -1,0 +1,32 @@
+.contact-container{
+  display: grid;
+  height: 300px;
+  grid-template-columns: repeat(4, 25%);
+  /* grid-template-rows: repeat(4, 25%); */
+}
+
+
+.contact-form{
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  grid-template-rows: repeat(4, 25%);
+  width: 600px;
+  height: 200px;
+  margin: 20px;
+  grid-row: 2;
+  grid-column: 2;
+}
+
+
+.name-input{
+  grid-row: 2;
+}
+
+
+.email-input{
+  grid-row: 2;
+}
+
+.message-input{
+  grid-area: 3 / span 2;
+}

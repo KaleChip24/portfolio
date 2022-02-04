@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
+
 
 .landing {
   display: flex;
@@ -35,7 +35,7 @@
   font-family: 'Bungee Outline', cursive;
   font-size: 70px;
   color: white;
-  text-shadow: 0px -2px #5AFFBA, 0px 2px #c88df3;
+  text-shadow: 0px -2px #5AFFBA, 0px 2px #c88df3, 2px 0 black;
 }
 
 .info-bite{
@@ -46,4 +46,8 @@
   width: 520px;
   border: 2px solid #5affba;
   box-shadow: 4px 4px #c88df3, 7px 7px black;
+}
+
+@media screen {
+  
 }
