@@ -2,36 +2,35 @@
 
 
 .landing {
-  display: flex;
-  flex-direction: column;
-  height: 1000px;
+  display: grid;
+  grid-template-rows: repeat(20, 5%);
+  grid-template-columns: repeat(20, 5%);
 }
 
 .landing-container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  /* margin: 15px auto; */
-  height: 600px;
-  /* border: 2px solid green; */
+  grid-column: 3 / span 16;
+  grid-row: 3 / span 16;
+  display: grid;
+  grid-template-columns: repeat(10, 10%);
+  grid-template-rows: repeat(9, 10%);
 }
 
 #my-img{
-  margin-top: 300px;
+  grid-row: 2;
+  grid-column: 4;
 }
 
 .intro {
-  margin-top: 300px;
-  margin-left: 132px;
-  margin-right: -107px;
+  grid-row: 4;
+  grid-column: 1;
   font-family: 'Bungee Outline', cursive;
   font-size: 70px;
   color: white;
   text-shadow: 0px -2px #5AFFBA, 0px 2px #c88df3, 2px 0 black;
 }
 .name {
-  margin-top: 300px;
-  margin-right: 95px;
+  grid-row: 4;
+  grid-column: 9;
   font-family: 'Bungee Outline', cursive;
   font-size: 70px;
   color: white;
@@ -39,10 +38,10 @@
 }
 
 .info-bite{
-  align-self: center;
-  padding: 15px;
-  margin-top: 140px;
-  margin-right: 44px;
+  grid-row: 18;
+  grid-column: -15;
+  height: 30px;
+  padding-top: 8px;
   width: 520px;
   border: 2px solid #5affba;
   box-shadow: 4px 4px #c88df3, 7px 7px black;

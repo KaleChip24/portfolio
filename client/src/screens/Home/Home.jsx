@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css'
+import 'animate.css'
 
 function Home() {
   return (
@@ -9,12 +10,10 @@ function Home() {
         <img
           id="my-img"
           style={{
-            boxShadow: "10px 10px #c88df3, -10px -10px black",
+            boxShadow: "3px 7px #c88df3, -6px -3px black",
             border: "4px solid #5AFFBA",
-            borderRadius: "100px",
+            borderRadius: "200px",
             width: 400,
-            marginTop: 300,
-            marginLeft: 217,
 
           }}
           src={'https://res.cloudinary.com/dv2buktns/image/upload/v1642538998/prof_Img_tehudl.jpg'}

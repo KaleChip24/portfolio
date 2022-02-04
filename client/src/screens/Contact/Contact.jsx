@@ -7,7 +7,7 @@ function Contact(props) {
         <input className='name-input' type='text' name='name' placeholder='Name' />
         <input className='email-input' type='text' name='email' placeholder='Email' />
         <input className='message-input' type='textarea' name='message' placeholder='Message' />
-        <button>Submit</button>
+        <button className="submit-btn">Submit</button>
       </form>
     </div>
   );
