@@ -7,7 +7,7 @@
   grid-template-rows: repeat(10, 10%);
   position: fixed;
   height: 100px;
-  background-color: white;
+  background-color: whitesmoke;
   width: 100vw;
 }
 
@@ -29,7 +29,7 @@
   color: black;
   margin: 10px;
   font-size: 25px;
-  text-shadow: 4px 4px 3px #5AFFBA;
+  /* text-shadow: 4px 4px 3px #5AFFBA; */
 }
 
 .contact-link{
@@ -37,7 +37,7 @@
   color: black;
   margin: 10px;
   font-size: 25px;
-  text-shadow: 4px 4px 3px #FF5ABD;
+  /* text-shadow: 4px 4px 3px #FF5ABD; */
 }
 
 .projects-link{
@@ -45,7 +45,7 @@
   color: black;
   margin: 10px;
   font-size: 25px;
-  text-shadow: 4px 4px 3px #3965FF;
+  /* text-shadow: 4px 4px 3px #3965FF; */
 }
 
 
