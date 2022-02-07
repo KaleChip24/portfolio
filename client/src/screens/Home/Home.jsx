@@ -8,15 +8,8 @@ function Home() {
       <div className='landing-container'>
         <h1 className='intro'> Hey! </h1>
         <img
+          className='intro-img'
           id="my-img"
-          style={{
-            boxShadow: "3px 7px #706993, -6px -3px black",
-            border: "4px solid #A0C1B9",
-            borderRadius: "200px",
-            width: 400,
-            paddingTop: 16,
-
-          }}
           src={'https://res.cloudinary.com/dv2buktns/image/upload/v1642538998/prof_Img_tehudl.jpg'}
           alt="kale-headshot-illustration" />
         <h1 className='name'> I'm Kale </h1>

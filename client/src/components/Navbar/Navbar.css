@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Short+Stack&family=Supermercado+One&display=swap');
 
 
-.nav-container{
+/*.nav-container{
   display: grid;
   grid-template-columns: repeat(10, 10%);
   grid-template-rows: repeat(10, 10%);
@@ -21,36 +23,197 @@
   padding: 10px;
   margin-top: 10px;
   margin-right: 60px;
-  /* box-shadow: 0px 0px 2px 4px #c88df3, 2px 2px 2px 4px black */
 }
 
 .about-link{
-  font-family: 'Bungee Outline', cursive;
-  color: black;
+  font-family: 'Montserrat', sans-serif;
   margin: 10px;
   font-size: 25px;
-  /* text-shadow: 4px 4px 3px #5AFFBA; */
+  color: #706993;
+  font-weight: 400;
+  text-shadow: 1px 3px 5px black;
 }
 
 .contact-link{
-  font-family: 'Bungee Outline', cursive;
-  color: black;
+  font-family: 'Supermercado One', cursive;
   margin: 10px;
-  font-size: 25px;
-  /* text-shadow: 4px 4px 3px #FF5ABD; */
+  font-size: 30px; 
+  color: #706993;
+  text-shadow: 2px 2px 2px gray;
 }
 
 .projects-link{
-  font-family: 'Bungee Outline', cursive;
-  color: black;
+  font-family: 'Montserrat', sans-serif;
   margin: 10px;
   font-size: 25px;
-  /* text-shadow: 4px 4px 3px #3965FF; */
+  color: #706993;
+  font-weight: 400;
+  text-shadow: 1px 3px 5px black;
 }
 
 
 
 a {
   text-decoration: none;
-  /* color: aquamarine; */
+}
+
+@media (max-width: 390px ) {
+  .nav-container{
+  overflow: hidden;
+  background-color: whitesmoke;
+  position: relative;
+  }
+
+.nav-links{
+  display: none;
+}
+
+.nav-container Link{
+
+}
+
+
+
+
+} */
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+} */
+
+.container {
+  max-width: 1050px;
+  width: 90%;
+  margin: auto;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+}
+
+.navbar .menu-items {
+  display: flex;
+}
+
+.navbar .nav-container li {
+  list-style: none;
+}
+
+.navbar .nav-container a {
+  text-decoration: none;
+  color: #0e2431;
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding: 0.7rem;
+}
+
+.navbar .nav-container a:hover{
+    font-weight: bolder;
+}
+
+.nav-container {
+  display: block;
+  position: relative;
+  height: 60px;
+}
+
+.nav-container .checkbox {
+  position: absolute;
+  display: block;
+  height: 32px;
+  width: 32px;
+  top: 12px;
+  left: -112px;
+  z-index: 5;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.nav-container .hamburger-lines {
+  display: block;
+  height: 26px;
+  width: 32px;
+  position: absolute;
+  top: 17px;
+  left: -110px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nav-container .hamburger-lines .line {
+  display: block;
+  height: 4px;
+  width: 100%;
+  border-radius: 10px;
+  background: #A0C1B9;
+}
+
+.nav-container .hamburger-lines .line1 {
+  transform-origin: 0% 0%;
+  transition: transform 0.4s ease-in-out;
+}
+
+.nav-container .hamburger-lines .line2 {
+  transition: transform 0.2s ease-in-out;
+}
+
+.nav-container .hamburger-lines .line3 {
+  transform-origin: 0% 100%;
+  transition: transform 0.4s ease-in-out;
+}
+
+.navbar .menu-items {
+  padding-top: 100px;
+  background-color: whitesmoke;
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+  height: 25vh;
+  width: 23vw;
+  transform: translate(-200%);
+  display: flex;
+  flex-direction: column;
+  margin-left: -179px;
+  transition: transform 0.5s ease-in-out;
+  text-align: center;
+}
+
+.navbar .menu-items li {
+  margin-bottom: 1.2rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+
+.nav-container input[type="checkbox"]:checked ~ .menu-items {
+  transform: translateX(0);
+}
+
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+  transform: rotate(45deg);
+}
+
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+  transform: scaleY(0);
+}
+
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+  transform: rotate(-45deg);
+}
+
+.nav-container input[type="checkbox"]:checked ~ .logo{
+  display: none;
 }
