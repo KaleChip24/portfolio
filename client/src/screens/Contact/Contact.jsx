@@ -23,7 +23,7 @@ function Contact(props) {
 
   return (
     <div className='contact-container'>
-      <h2 className="contact-title">Lets Work Together!</h2>
+      <h2 className="contact-title">Let's Work Together!</h2>
       <p className="contact-blerb">Send me an email or connect with me on LinkedIn</p>
       <form className='contact-form' ref={form} onSubmit={sendEmail}>
         <input className='name-input' type='text' name='from_name' placeholder='Name' />
@@ -32,6 +32,7 @@ function Contact(props) {
         <input className='submit-btn' type="submit" value="Send" />
         {/* <button className="submit-btn">Submit</button> */}
       </form>
+      <div className="vl"></div>
       <div className="contact-linkedIn">
         <a
           className="linked-link"

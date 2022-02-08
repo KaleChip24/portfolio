@@ -1,5 +1,18 @@
-.projects-container{
+.projects-wrapper{
   display: grid;
   background-color: whitesmoke;
   height: 100vh;
+  overflow: scroll;
+}
+
+.bricks-img{
+  height: 300px;
+}
+
+.movie-img{
+  height: 300px;
+}
+
+.tilt-img{
+  height: 300px;
 }

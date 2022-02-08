@@ -11,7 +11,7 @@
 
 .landing-container {
   grid-column: 3 / span 16;
-  grid-row: 3 / span 16;
+  grid-row: 2 / span 16;
   display: grid;
   grid-template-columns: repeat(10, 10%);
   grid-template-rows: repeat(9, 10%);
@@ -48,7 +48,7 @@
 }
 
 .info-bite{
-  grid-row: 18;
+  grid-row: 16;
   grid-column: -15;
   height: 30px;
   padding-top: 8px;

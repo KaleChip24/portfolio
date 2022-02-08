@@ -17,7 +17,7 @@
   margin: 20px;
   grid-row: 8;
   grid-column: 3;
-  border: 2px solid #A0C1B9;
+  border: 6px solid #A0C1B9;
   border-radius: 10px;
   box-shadow: 4px 4px 3px #70A0AF;
   padding: 19px;
@@ -87,4 +87,14 @@
 
 .linked-link{
   color: #70A0AF;
+}
+
+.vl{
+  grid-row: 10;
+  grid-column: 14;
+  border-left: 2px solid #A0C1B9;
+  height: 227px;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
 }
