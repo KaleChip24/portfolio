@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 function Projects(props) {
   return (
     <div className='projects-page'>
-      <p className='projects-blerb'>Check out my products via their webpage or take a look at their code on GitHub</p>
+      <p className='projects-blerb'>Check out my projects via their webpage or take a look at their code on GitHub</p>
       <div className='projects-wrapper'>
         <div className='project-card'>
           <div className='image'>
@@ -23,7 +23,12 @@ function Projects(props) {
                 <BsGithub></BsGithub>
               </strong>
             </a>
-            <Link to='https://kalechip24.github.io/Old-Bricks-New-Tricks/'>Visit Me!</Link>
+            <a
+              className="site-link"
+              href="https://kalechip24.github.io/Old-Bricks-New-Tricks/"
+              target="_blank"
+              rel="noreferrer">O.B.N.T
+            </a>
           </div>
         </div>
         <div className='project-card'>
@@ -41,6 +46,12 @@ function Projects(props) {
               <strong>
                 <BsGithub></BsGithub>
               </strong>
+            </a>
+            <a
+              className="site-link"
+              href="https://moviemeowtian.netlify.app/"
+              target="_blank"
+              rel="noreferrer">Meow
             </a>
           </div>
         </div>
@@ -61,7 +72,7 @@ function Projects(props) {
               </strong>
             </a>
             <a
-              className="tilt-link"
+              className="site-link"
               href="https://tilted2.netlify.app/"
               target="_blank"
               rel="noreferrer">Tilt
