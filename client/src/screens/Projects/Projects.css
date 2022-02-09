@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap');
+
 .projects-page{
   display: grid;
   grid-template-columns: repeat(15, 7%);
@@ -9,12 +11,13 @@
 
 .projects-blerb{
   grid-row: 2;
-  grid-column: 5 / span 6;
+  grid-column: 4 / span 8;
   border: 2px solid #A0C1B9;
   box-shadow: 4px 4px #706993, 7px 7px black;
   background-color: white;
   padding: 10px;
   height: 20px;
+  font-family: 'Short Stack', cursive
 }
 
 .projects-wrapper{
@@ -93,8 +96,14 @@
 a{
   text-decoration: none;
   color: black;
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover{
+color: #A0C1B9;
 }
 
 .site-link{
   margin-left: 15px;
+  margin-bottom: -100px;
 }

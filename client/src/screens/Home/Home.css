@@ -51,11 +51,14 @@
   grid-row: 16;
   grid-column: -15;
   height: 30px;
-  padding-top: 8px;
+  padding: 6px;
+  padding-top: 12px;
   width: 520px;
   border: 3px solid #A0C1B9;
   box-shadow: 5px 4px #706993, 9px 7px black;
   background-color: white;
+  font-family: 'Short Stack', cursive;
+  font-size: 17px;
 }
 
 @media only screen 

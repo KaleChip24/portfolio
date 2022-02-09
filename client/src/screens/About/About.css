@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Short+Stack&family=Supermercado+One&display=swap');
 
 
 .about-container {
@@ -13,10 +13,12 @@
 
 .blerb {
   width: 500px;
+  font-family: 'Short Stack', cursive
 }
 
 .skills-title{
   margin: 30px;
+  font-family: 'Short Stack', cursive
 }
 
 .icons-container{

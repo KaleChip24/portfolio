@@ -1,6 +1,6 @@
 import './Projects.css'
 import { BsGithub } from 'react-icons/bs'
-import { Link } from 'react-router-dom'
+
 
 function Projects(props) {
   return (
