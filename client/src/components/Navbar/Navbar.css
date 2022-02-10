@@ -177,14 +177,9 @@ body {
 
 .navbar .menu-items {
   padding-top: 24px;
-  /* background-color: whitesmoke; */
-  /* box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5); */
-  /* height: 25vh;
-  width: 25vw; */
   transform: translate(-100%);
   display: flex;
   justify-content: center;
-  /* margin-left: -179px; */
   transition: transform 0.5s ease-in-out;
   text-align: center;
 }
@@ -214,4 +209,31 @@ body {
 
 .nav-container input[type="checkbox"]:checked ~ .logo{
   display: none;
+}
+
+@media only screen 
+and (max-device-width: 820px){
+.navbar .menu-items{
+  margin-left: 15px;
+}
+
+} 
+@media only screen 
+and (max-device-width: 414px){
+.navbar .menu-items{
+  padding-top: 51px;
+  margin-left: -10px;
+
+}
+
+} 
+
+@media only screen 
+and (max-device-width: 396px){
+.navbar .menu-items{
+  padding-top: 57px;
+  margin-left: -10px;
+  font-size: 20px;
+}
+
 }
