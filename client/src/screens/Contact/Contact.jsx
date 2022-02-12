@@ -1,7 +1,6 @@
 import "./Contact.css"
 import emailjs from '@emailjs/browser';
 import { useRef } from 'react'
-import { AiOutlineLinkedin } from 'react-icons/ai'
 
 function Contact(props) {
   const form = useRef();
@@ -23,25 +22,13 @@ function Contact(props) {
 
   return (
     <div className='contact-container'>
-      <h2 className="contact-title">Let's Work Together!</h2>
-      <p className="contact-blerb">Send me an email or connect with me on LinkedIn</p>
+      <h2 className="contact-title">Say 'Hello!'</h2>
       <form className='contact-form' ref={form} onSubmit={sendEmail}>
         <input className='name-input' type='text' name='from_name' placeholder='Name' />
         <input className='email-input' type='text' name='email' placeholder='Email' />
         <input className='message-input' type='textarea' name='message' placeholder='Message' />
         <input className='submit-btn' type="submit" value="Send" />
-        {/* <button className="submit-btn">Submit</button> */}
       </form>
-      <div className="vl"></div>
-      <div className="contact-linkedIn">
-        <a
-          className="linked-link"
-          href="https://www.linkedin.com/in/oharakale/"
-          target="_blank"
-          rel="noreferrer">
-          <AiOutlineLinkedin></AiOutlineLinkedin>
-        </a>
-      </div>
     </div>
   );
 }

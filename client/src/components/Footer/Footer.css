@@ -1,3 +1,22 @@
 .foot-container {
-  border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
+  .gmail{
+    color: white;
+    font-size: 30px;
+    margin: 19px;
+    margin-left: 30px;
+  }
+
+  .linkedIn{
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+  }
+
+  .copyright{
+    color: white;
+    margin-right: 30px;
+  }

@@ -6,7 +6,6 @@
   height: 100vh;
   grid-template-rows: repeat(20, 5%);
   grid-template-columns: repeat(20, 5%);
-  background-color: whitesmoke;
 }
 
 .landing-container {
@@ -23,11 +22,12 @@
 }
 
 .intro-img{
-  border: 4px solid #A0C1B9;
-  box-shadow: 3px 7px #706993, -6px -3px black;
-  border-radius: 200px;
+  border: 6px solid #FFE1A8;
+  box-shadow: 0px 0px 11px 6px white;
+  border-radius: 206px;
   width: 400px;
   padding-top: 16px;
+  background-color: white;
 }
 
 .intro {
@@ -35,16 +35,16 @@
   grid-column: 1;
   font-family: 'Bungee Outline', cursive;
   font-size: 70px;
-  color: #A0C1B9;
-  text-shadow: -2px 1px 7px white, -1px -1px black;
+  color: white;
+  /* text-shadow: -2px 1px 7px white, -1px -1px black; */
 }
 .name {
   grid-row: 4;
   grid-column: 9;
   font-family: 'Bungee Outline', cursive;
   font-size: 70px;
-  color: #A0C1B9;
-  text-shadow: -2px 1px 7px white, -1px -1px black;
+  color: white;
+  /* text-shadow: -2px 1px 7px white, -1px -1px black; */
 }
 
 .info-bite{
@@ -54,8 +54,8 @@
   padding: 6px;
   padding-top: 12px;
   width: 520px;
-  border: 3px solid #A0C1B9;
-  box-shadow: 5px 4px #706993, 9px 7px black;
+  border: 3px solid #FFE1A8;
+  box-shadow: 0px 0px 7px 6px white;
   background-color: white;
   font-family: 'Short Stack', cursive;
   font-size: 17px;

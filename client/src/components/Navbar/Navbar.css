@@ -3,90 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Short+Stack&family=Supermercado+One&display=swap');
 
 
-/*.nav-container{
-  display: grid;
-  grid-template-columns: repeat(10, 10%);
-  grid-template-rows: repeat(10, 10%);
-  position: fixed;
-  height: 100px;
-  background-color: whitesmoke;
-  width: 100vw;
-}
-
-.home-btn{
-  grid-row: 5;
-}
-
-.nav-links{
-  grid-column: 8;
-  grid-row: 2;
-  padding: 10px;
-  margin-top: 10px;
-  margin-right: 60px;
-}
-
-.about-link{
-  font-family: 'Montserrat', sans-serif;
-  margin: 10px;
-  font-size: 25px;
-  color: #706993;
-  font-weight: 400;
-  text-shadow: 1px 3px 5px black;
-}
-
-.contact-link{
-  font-family: 'Supermercado One', cursive;
-  margin: 10px;
-  font-size: 30px; 
-  color: #706993;
-  text-shadow: 2px 2px 2px gray;
-}
-
-.projects-link{
-  font-family: 'Montserrat', sans-serif;
-  margin: 10px;
-  font-size: 25px;
-  color: #706993;
-  font-weight: 400;
-  text-shadow: 1px 3px 5px black;
-}
-
-
-
-a {
-  text-decoration: none;
-}
-
-@media (max-width: 390px ) {
-  .nav-container{
-  overflow: hidden;
-  background-color: whitesmoke;
-  position: relative;
-  }
-
-.nav-links{
-  display: none;
-}
-
-.nav-container Link{
-
-}
-
-
-
-
-} */
-
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Montserrat', sans-serif;
-} */
-
 .container {
   max-width: 1050px;
   width: 90%;
@@ -114,10 +30,11 @@ body {
 
 .navbar .nav-container a {
   text-decoration: none;
-  color: #0e2431;
+  color: white;
   font-weight: 500;
   font-size: 1.2rem;
   padding: 0.7rem;
+  font-family: 'Short Stack', cursive
 }
 
 .navbar .nav-container a:hover{
@@ -158,7 +75,7 @@ body {
   height: 4px;
   width: 100%;
   border-radius: 10px;
-  background: #A0C1B9;
+  background: white;
 }
 
 .nav-container .hamburger-lines .line1 {
@@ -168,6 +85,7 @@ body {
 
 .nav-container .hamburger-lines .line2 {
   transition: transform 0.2s ease-in-out;
+  color: black;
 }
 
 .nav-container .hamburger-lines .line3 {
@@ -218,7 +136,7 @@ and (max-device-width: 820px){
 }
 
 } 
-@media only screen 
+/* @media only screen 
 and (max-device-width: 414px){
 .navbar .menu-items{
   padding-top: 51px;
@@ -226,14 +144,27 @@ and (max-device-width: 414px){
 
 }
 
-} 
+}  */
 
 @media only screen 
-and (max-device-width: 396px){
+and (max-device-width: 420px){
 .navbar .menu-items{
-  padding-top: 57px;
-  margin-left: -10px;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  /* padding-top: 57px; */
+  margin-left: -24px;
   font-size: 20px;
+  background: #72c9b9c7;
+}
+
+.navbar .menu-items li{
+  margin-bottom: 3.2rem;
+}
+
+.navbar .nav-container a {
+  font-size: 3.2rem;
+  text-shadow: 2px 2px 2px black;
 }
 
 }

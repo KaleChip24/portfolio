@@ -4,7 +4,6 @@
   display: grid;
   grid-template-columns: repeat(15, 7%);
   grid-template-rows: repeat(15, 7%);
-  background-color: whitesmoke;
   height: 100vh;
   overflow: scroll;
 }
