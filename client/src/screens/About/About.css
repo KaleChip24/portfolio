@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Short+Stack&family=Supermercado+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;1,200&display=swap');
 
 
 .about-container {
@@ -13,12 +12,12 @@
 
 .blerb {
   width: 500px;
-  font-family: 'Short Stack', cursive
+  font-family: 'Raleway', sans-serif;
 }
 
 .skills-title{
   margin: 30px;
-  font-family: 'Short Stack', cursive
+  font-family: 'Raleway', sans-serif;
 }
 
 .icons-container{
@@ -36,10 +35,9 @@
 
 .abt{
   margin-top: -100px;
-  font-family: 'Bungee Outline', cursive;
+  font-family: 'Raleway', sans-serif;
   font-size: 70px;
   color: white;
-  /* text-shadow: -2px 1px 7px white, -1px -1px black; */
 }
 
 .hr{

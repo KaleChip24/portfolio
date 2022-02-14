@@ -33,7 +33,7 @@
 .intro {
   grid-row: 4;
   grid-column: 1;
-  font-family: 'Bungee Outline', cursive;
+  font-family: 'Raleway', sans-serif;
   font-size: 70px;
   color: white;
   /* text-shadow: -2px 1px 7px white, -1px -1px black; */
@@ -41,7 +41,7 @@
 .name {
   grid-row: 4;
   grid-column: 9;
-  font-family: 'Bungee Outline', cursive;
+  font-family: 'Raleway', sans-serif;
   font-size: 70px;
   color: white;
   /* text-shadow: -2px 1px 7px white, -1px -1px black; */
@@ -57,7 +57,7 @@
   border: 3px solid #FFE1A8;
   box-shadow: 0px 0px 7px 6px white;
   background-color: white;
-  font-family: 'Short Stack', cursive;
+  font-family: 'Raleway', sans-serif;
   font-size: 17px;
 }
 

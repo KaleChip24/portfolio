@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Short+Stack&family=Supermercado+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;1,200&display=swap');
 
 
 .container {
@@ -31,11 +30,10 @@
 .navbar .nav-container a {
   text-decoration: none;
   color: white;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 1.2rem;
   padding: 0.7rem;
-  font-family: 'Short Stack', cursive
-}
+  font-family: 'Raleway', sans-serif;}
 
 .navbar .nav-container a:hover{
     font-weight: bolder;

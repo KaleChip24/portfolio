@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap');
 
 .projects-page{
   display: grid;
@@ -16,7 +15,7 @@
   background-color: white;
   padding: 10px;
   height: 20px;
-  font-family: 'Short Stack', cursive
+  font-family: 'Raleway', sans-serif;
 }
 
 .projects-wrapper{
@@ -67,7 +66,6 @@
   max-width : 400px;
   height: 200px;
   border-radius : 5px;
-  /* border: 4px solid #706993; */
 }
 
 .projects-wrapper .project-card .content{
