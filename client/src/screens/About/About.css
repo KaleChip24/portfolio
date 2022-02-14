@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;1,200&display=swap');
 
+.about{
+  margin-bottom: 100px;
+}
 
 .about-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 1000px;
+  /* height: 1000px; */
   margin-bottom: 50px;
 }
 
@@ -63,11 +66,21 @@
   color: #FFE1A8;
 }
 
+@media screen
+and (max-device-width: 800px){
+  .about-container{
+    height: 100vh;
+  }
+
 
 @media screen
 and (max-device-width: 420px){
+.about-container{
+  height: 100vh;
+}
 .abt{
   margin-bottom: 5px;
+  margin-top: 80px;
   font-size: 45px;
 }
 
@@ -87,13 +100,13 @@ hr{
 .icons-container{
 padding: 10px;
 width: 270px;
-height: 124px;
 margin-bottom: 20px;
 
 }
 
 .icons-box{
   flex-direction: column;
+  height: 256px;
 }
 
 .icon{
@@ -108,4 +121,6 @@ margin-bottom: 20px;
 .icon-label{
   margin-right: 4px;
 }
+}
+
 }
