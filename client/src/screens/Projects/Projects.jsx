@@ -1,5 +1,4 @@
 import './Projects.css'
-import { BsGithub } from 'react-icons/bs'
 
 
 function Projects(props) {
@@ -18,16 +17,13 @@ function Projects(props) {
               className="git-link"
               href="https://github.com/KaleChip24/Old-Bricks-New-Tricks"
               target="_blank"
-              rel="noreferrer">
-              <strong>
-                <BsGithub></BsGithub>
-              </strong>
+              rel="noreferrer">Code
             </a>
             <a
               className="site-link"
               href="https://kalechip24.github.io/Old-Bricks-New-Tricks/"
               target="_blank"
-              rel="noreferrer">O.B.N.T
+              rel="noreferrer">Visit Site!
             </a>
           </div>
         </div>
@@ -42,16 +38,13 @@ function Projects(props) {
               className="git-link"
               href="https://github.com/KaleChip24/it-happened"
               target="_blank"
-              rel="noreferrer">
-              <strong>
-                <BsGithub></BsGithub>
-              </strong>
+              rel="noreferrer">Code
             </a>
             <a
               className="site-link"
               href="https://moviemeowtian.netlify.app/"
               target="_blank"
-              rel="noreferrer">Meow
+              rel="noreferrer">Visit Site!
             </a>
           </div>
         </div>
@@ -66,16 +59,13 @@ function Projects(props) {
               className="git-link"
               href="https://github.com/KaleChip24/tilt2.0"
               target="_blank"
-              rel="noreferrer">
-              <strong>
-                <BsGithub></BsGithub>
-              </strong>
+              rel="noreferrer">Code
             </a>
             <a
               className="site-link"
               href="https://tilted2.netlify.app/"
               target="_blank"
-              rel="noreferrer">Tilt
+              rel="noreferrer">Visit Site!
             </a>
           </div>
         </div>
